@@ -27,6 +27,13 @@ modules:
       # - starship
         - zsh
         - exa
+        - adb
+        - distrobox
+        - exa
+        - mono-complete
+        - trash-cli
+        - vim
+        - zoxide
         - tailscale
     remove:
       # example: removing firefox (in favor of the flatpak)

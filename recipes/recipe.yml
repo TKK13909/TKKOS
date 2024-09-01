@@ -35,6 +35,7 @@ modules:
         - vim
         - zoxide
         - tailscale
+        - neovim
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -45,19 +46,18 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
-      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      # repo-name: flathub
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
          #- org.mozilla.firefox
-         - io.gitlab.librewolf-community
          - com.vscodium.codium
          - com.borgbase.Vorta
          - net.lutris.Lutris
          - org.libreoffice.LibreOffice
          - com.obsproject.Studio
-         - md.obsidian.Obsidian
-         - io.github.spacingbat3.webcord
+         # - md.obsidian.Obsidian
+         # - io.github.spacingbat3.webcord
          - org.prismlauncher.PrismLauncher
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
@@ -66,6 +66,8 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
       # - org.gnome.eog
+    #user:
+    #  install: 
   - type: systemd
       # this example disables automatic flatpak updates and enables a custom service unit for all users
     system:
@@ -78,11 +80,11 @@ modules:
         #- 
       disabled:
         #- flatpak-user-update.timer
-  - type: chezmoi
-    repository: "https://gitlab.com/TKK13909/tkkos-dotfiles"
-    all-users: true
-    #file-conflict-policy: replace
-    run-every: 1h
+   # - type: chezmoi
+   #  repository: "https://gitlab.com/TKK13909/tkkos-dotfiles"
+   #  all-users: true
+   #  #file-conflict-policy: replace
+   #  run-every: 1h
 
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

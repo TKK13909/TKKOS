@@ -51,6 +51,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
          #- org.mozilla.firefox
+         - io.github.zen_browser.zen
          - com.vscodium.codium
          - com.borgbase.Vorta
          - net.lutris.Lutris

@@ -1,6 +1,6 @@
 # TKKOS &nbsp; [![build-ublue](https://github.com/tkk13909/tkkos/actions/workflows/build.yml/badge.svg)](https://github.com/tkk13909/tkkos/actions/workflows/build.yml)
 
-This is my FIRST attempt at building a Linux distro. My changes are minor so far so I would recommend against using this for yourself. This documentation is first and foremost for myself at the moment.
+This is my FIRST attempt at building a Linux distro. My changes are minor so far so I would recommend against using this distribution on your own machine. This documentation is first and foremost for myself at the moment.
 
 ## Installation
 

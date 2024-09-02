@@ -1,4 +1,4 @@
-# ublue-testing &nbsp; [![build-ublue](https://github.com/tkk13909/ublue-testing/actions/workflows/build.yml/badge.svg)](https://github.com/tkk13909/ublue-testing/actions/workflows/build.yml)
+# TKKOS &nbsp; [![build-ublue](https://github.com/tkk13909/tkkos/actions/workflows/build.yml/badge.svg)](https://github.com/tkk13909/tkkos/actions/workflows/build.yml)
 
 This is my FIRST attempt at building a Linux distro. My changes are minor so far so I would recommend against using this for yourself. This documentation is first and foremost for myself at the moment.
 
@@ -11,7 +11,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/tkk13909/ublue-testing:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/tkk13909/tkkos:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -19,7 +19,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/tkk13909/ublue-testing:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/tkk13909/tkkos:latest
   ```
 - Reboot again to complete the installation
   ```
@@ -37,5 +37,5 @@ If build on Fedora Atomic, you can generate an offline ISO with the instructions
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/tkk13909/ublue-testing
+cosign verify --key cosign.pub ghcr.io/tkk13909/tkkos
 ```

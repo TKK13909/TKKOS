@@ -24,19 +24,22 @@ modules:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
     install:
-      # - micro
-      # - starship
+        # CLI Tools:
         - zsh
         - exa
         - adb
-        - distrobox
         - exa
-        - mono-complete
         - trash-cli
-        - vim
         - zoxide
+        # Networking
         - tailscale
+        # Development
+        - vim
         - neovim
+        - git
+        - distrobox
+        - cargo
+        - mono-complete
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency

@@ -5,3 +5,5 @@ IMAGE_REPO=ghcr.io/tkk13909 \
 IMAGE_NAME=ublue-testing \
 IMAGE_TAG=latest \
 VARIANT=Kinoite # should match the variant your image is based on
+
+# Test message that should not trigger a rebuild

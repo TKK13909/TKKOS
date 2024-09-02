@@ -1,8 +1,6 @@
 # ublue-testing &nbsp; [![build-ublue](https://github.com/tkk13909/ublue-testing/actions/workflows/build.yml/badge.svg)](https://github.com/tkk13909/ublue-testing/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
-
-After setup, it is recommended you update this README to describe your custom image.
+This is my FIRST attempt at building a Linux distro. My changes are minor so far so I would recommend against using this for yourself. This documentation is first and foremost for myself at the moment.
 
 ## Installation
 

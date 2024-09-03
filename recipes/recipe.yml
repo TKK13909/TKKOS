@@ -40,8 +40,8 @@ modules:
         - neovim
         - git
         - distrobox
-        - cargo
-        - mono-complete
+        # - cargo
+        # - mono-complete
     remove:
         - firefox
         - firefox-langpacks
@@ -75,11 +75,11 @@ modules:
         #- 
       disabled:
         #- flatpak-user-update.timer
-  - type: chezmoi
-    repository: "https://gitlab.com/TKK13909/tkkos-dotfiles"
-    all-users: true
-   #  #file-conflict-policy: replace
-    run-every: 1h
+  # - type: chezmoi
+  #   repository: "https://gitlab.com/TKK13909/tkkos-dotfiles"
+  #   all-users: true
+  #   #file-conflict-policy: replace
+  #   run-every: 1h
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

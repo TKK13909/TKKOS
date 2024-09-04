@@ -40,8 +40,6 @@ modules:
         - neovim
         - git
         - distrobox
-        # - cargo
-        # - mono-complete
     remove:
         - firefox
         - firefox-langpacks

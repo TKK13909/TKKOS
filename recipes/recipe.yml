@@ -4,7 +4,6 @@ name: tkkos
 description: This is my personal OS image.
 
 alt-tags:
-  - staging
   - testing
 
 # the base image to build on top of (FROM) and the version tag to use

@@ -58,6 +58,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
          - org.libreoffice.LibreOffice
+         - org.kde.gwenview
     user:
       install: 
          - io.github.zen_browser.zen

@@ -10,6 +10,9 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - type: script
+    snippets:
+      - "mkdir -p /opt/appman && wget https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER -O /opt/appman/appman && chmod a+x /opt/appman/appman && ln -s /opt/appman/appman /usr/local/bin/appman"
   - type: files
     files:
       - source: system

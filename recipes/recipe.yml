@@ -12,7 +12,7 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
   - type: script
     snippets:
-      - "wget https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER -O /usr/local/bin/appman && chmod a+x /usr/local/bin/appman"
+      - "wget --tries=10 https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER -O /usr/local/bin/appman && chmod a+x /usr/local/bin/appman"
   - type: files
     files:
       - source: system

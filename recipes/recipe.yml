@@ -10,6 +10,9 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - type: script
+    snippets:
+      - "wget --tries=10 https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER -O /usr/local/bin/appman && chmod a+x /usr/local/bin/appman"
   - type: files
     files:
       - source: system
@@ -40,6 +43,8 @@ modules:
         - neovim
         - git
         - distrobox
+        - docker
+        - podman
     remove:
         - firefox
         - firefox-langpacks
@@ -53,6 +58,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
          - org.libreoffice.LibreOffice
+         - org.kde.gwenview
     user:
       install: 
          - io.github.zen_browser.zen

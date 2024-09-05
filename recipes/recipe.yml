@@ -43,6 +43,8 @@ modules:
         - neovim
         - git
         - distrobox
+        - docker
+        - podman
     remove:
         - firefox
         - firefox-langpacks

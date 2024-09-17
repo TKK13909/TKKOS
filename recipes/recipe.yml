@@ -26,6 +26,8 @@ modules:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-40.noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm
     install:
         # CLI Tools:
         - zsh
@@ -45,6 +47,10 @@ modules:
         - distrobox
         - docker
         - podman
+
+        # Drivers
+        - xorg-x11-drv-nvidia
+        - kmod-nvidia
     remove:
         - firefox
         - firefox-langpacks

@@ -47,6 +47,10 @@ modules:
         - distrobox
         - docker
         - podman
+
+        # Drivers
+        xorg-x11-drv-nvidia
+        kmod-nvidia
     remove:
         - firefox
         - firefox-langpacks

@@ -49,6 +49,7 @@ modules:
         - podman
 
         # Drivers
+        - kernel-modules-extra
         # - xorg-x11-drv-nvidia
         # - kmod-nvidia
     remove:

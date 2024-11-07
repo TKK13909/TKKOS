@@ -28,6 +28,7 @@ modules:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
       - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-40.noarch.rpm
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm
+      - https://copr.fedorainfracloud.org/coprs/deltacopy/lightly-qt6/repo/fedora-41/deltacopy-lightly-qt6-fedora-41.repo
     install:
         # CLI Tools:
         - zsh
@@ -47,6 +48,9 @@ modules:
         - distrobox
         - docker
         - podman
+
+        # Looks
+        - lightly-qt6
 
         # Drivers
         - kernel-modules-extra

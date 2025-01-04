@@ -28,7 +28,7 @@ modules:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
       - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-41.noarch.rpm
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-41.noarch.rpm
-      - https://copr.fedorainfracloud.org/coprs/deltacopy/lightly-qt6/repo/fedora-41/deltacopy-lightly-qt6-fedora-41.repo
+      - https://copr.fedorainfracloud.org/coprs/deltacopy/darkly/repo/fedora-41/deltacopy-darkly-fedora-41.repo
       # - https://copr.fedorainfracloud.org/coprs/luisbocanegra/kde-material-you-colors/repo/fedora-41/luisbocanegra-kde-material-you-colors-fedora-41.repo
     install:
         # CLI Tools:
@@ -51,7 +51,7 @@ modules:
         - podman
 
         # Looks
-        - lightly-qt6
+        - darkly
         # - kde-material-you-colors
 
         # Drivers

@@ -37,6 +37,7 @@ modules:
         - adb
         - exa
         - trash-cli
+        - btop
         - zoxide
 
         # Networking

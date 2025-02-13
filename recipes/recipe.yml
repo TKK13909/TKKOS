@@ -64,7 +64,7 @@ modules:
        # Any packages included in the orignial distribution that should not be included in TKKOS go here
 
   - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
+    notify: false # Send notification after install/uninstall is finished (true/false)
     system:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub

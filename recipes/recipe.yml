@@ -73,6 +73,8 @@ modules:
          - org.libreoffice.LibreOffice
          - org.kde.gwenview
     user:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
       install: 
          - io.github.zen_browser.zen
          - com.vscodium.codium

@@ -35,7 +35,6 @@ modules:
         - zsh
         - exa
         - adb
-        - exa
         - trash-cli
         - btop
         - zoxide

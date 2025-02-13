@@ -51,7 +51,7 @@ modules:
         - podman
 
         # Looks
-        - darkly
+        # - darkly
         # - kde-material-you-colors
 
         # Drivers

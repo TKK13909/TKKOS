@@ -87,13 +87,6 @@ modules:
     system:
       enabled:
         - tailscaled
-      disabled:
-        #- flatpak-system-update.timer
-    user:
-      enabled:
-        #- 
-      disabled:
-        #- flatpak-user-update.timer
   # - type: chezmoi
   #   repository: "https://gitlab.com/TKK13909/tkkos-dotfiles"
   #   all-users: true

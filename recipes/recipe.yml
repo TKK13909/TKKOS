@@ -76,7 +76,7 @@ modules:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub
       install: 
-         - io.github.zen_browser.zen
+         - app.zen_browser.zen
          - com.vscodium.codium
          - com.borgbase.Vorta
          - net.lutris.Lutris

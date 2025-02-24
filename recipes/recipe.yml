@@ -58,10 +58,6 @@ modules:
         - kernel-modules-extra
         # - xorg-x11-drv-nvidia
         # - kmod-nvidia
-    remove:
-        - firefox
-        - firefox-langpacks
-       # Any packages included in the orignial distribution that should not be included in TKKOS go here
 
   - type: default-flatpaks
     notify: false # Send notification after install/uninstall is finished (true/false)

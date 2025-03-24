@@ -1,0 +1,9 @@
+[Unit]
+Description=rpm-ostree Automatic Update
+Documentation=man:rpm-ostree(1) man:rpm-ostreed.conf(5)
+ConditionPathExists=/run/ostree-booted
+
+[Service]
+Type=simple
+ExecStart=rpm-ostree upgrade --quiet --trigger-automatic-update-policy
+ExecStartPost=notify-send "Latest update has been downloaded. Please restart to install it."

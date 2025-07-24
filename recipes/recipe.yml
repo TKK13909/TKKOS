@@ -33,7 +33,7 @@ modules:
     install:
         # CLI Tools:
         - zsh
-        - exa
+        - eza
         - adb
         - trash-cli
         - btop

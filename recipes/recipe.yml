@@ -68,17 +68,17 @@ modules:
       install:
          - org.libreoffice.LibreOffice
          - org.kde.gwenview
-    user:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      install: 
-         - app.zen_browser.zen
-         - com.vscodium.codium
-         - com.borgbase.Vorta
-         - net.lutris.Lutris
-         - org.libreoffice.LibreOffice
-         - com.obsproject.Studio
-         - org.prismlauncher.PrismLauncher
+    # user:
+    #   repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+    #   repo-name: flathub
+    #   install: 
+    #      - app.zen_browser.zen
+    #      - com.vscodium.codium
+    #      - com.borgbase.Vorta
+    #      - net.lutris.Lutris
+    #      - org.libreoffice.LibreOffice
+    #      - com.obsproject.Studio
+    #      - org.prismlauncher.PrismLauncher
   - type: systemd
     system:
       enabled:

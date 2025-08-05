@@ -72,7 +72,7 @@ modules:
           - org.libreoffice.LibreOffice
           - com.obsproject.Studio
           - org.prismlauncher.PrismLauncher
-      - notify:
+      - notify: true
         scope: system
         repo:
           title: Flathub (system)

@@ -60,25 +60,26 @@ modules:
         # - kmod-nvidia
 
   - type: default-flatpaks
-    notify: false # Send notification after install/uninstall is finished (true/false)
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-      install:
-         - org.libreoffice.LibreOffice
-         - org.kde.gwenview
-    # user:
-    #   repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-    #   repo-name: flathub
-    #   install: 
-    #      - app.zen_browser.zen
-    #      - com.vscodium.codium
-    #      - com.borgbase.Vorta
-    #      - net.lutris.Lutris
-    #      - org.libreoffice.LibreOffice
-    #      - com.obsproject.Studio
-    #      - org.prismlauncher.PrismLauncher
+    configurations:
+      - scope: user
+        repo:
+          title: Flathub (User)
+        install:
+          - app.zen_browser.zen
+          - com.vscodium.codium
+          - com.borgbase.Vorta
+          - net.lutris.Lutris
+          - org.libreoffice.LibreOffice
+          - com.obsproject.Studio
+          - org.prismlauncher.PrismLauncher
+      - notify:
+        scope: system
+        repo:
+          title: Flathub (system)
+        install:
+          - org.libreoffice.LibreOffice
+          - org.kde.gwenview
+
   - type: systemd
     system:
       enabled:

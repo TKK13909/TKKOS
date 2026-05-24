@@ -25,9 +25,9 @@ modules:
     repos:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
-      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-43.noarch.rpm
-      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-43.noarch.rpm
-      - https://copr.fedorainfracloud.org/coprs/deltacopy/darkly/repo/fedora-43/deltacopy-darkly-fedora-43.repo
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-44.noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-44.noarch.rpm
+      - https://copr.fedorainfracloud.org/coprs/deltacopy/darkly/repo/fedora-44/deltacopy-darkly-fedora-44.repo
     install:
         # CLI Tools:
         - zsh

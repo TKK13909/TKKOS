@@ -42,7 +42,7 @@ modules:
         - libdrm.x86_64
         - glibc.x86_64
         - glibc-common.x86_64
-        - libexpat.x86_64
+        # - libexpat.x86_64
         - llvm-libs.x86_64
         - libxml2.x86_64
         - xz-libs.x86_64

@@ -32,7 +32,6 @@ modules:
     install:
         # CLI Tools:
         - zsh
-        # - eza
         - adb
         - trash-cli
         - btop
@@ -83,4 +82,3 @@ modules:
         - tailscaled
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-

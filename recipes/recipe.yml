@@ -36,16 +36,16 @@ modules:
         - mesa-filesystem.i686
         - libnsl.i686
         - glibc-devel.i686
-        - mesa-dri-drivers.x86_64         # include matching x86_64 variants
-        - mesa-libgbm.x86_64
-        - mesa-libGL.x86_64
-        - libdrm.x86_64
-        - glibc.x86_64
-        - glibc-common.x86_64
+        # - mesa-dri-drivers.x86_64         # include matching x86_64 variants
+        # - mesa-libgbm.x86_64
+        # - mesa-libGL.x86_64
+        # - libdrm.x86_64
+        # - glibc.x86_64
+        # - glibc-common.x86_64
         # - libexpat.x86_64
-        - llvm-libs.x86_64
-        - libxml2.x86_64
-        - xz-libs.x86_64
+        # - llvm-libs.x86_64
+        # - libxml2.x86_64
+        # - xz-libs.x86_64
         # CLI Tools:
         - zsh
         # - eza
